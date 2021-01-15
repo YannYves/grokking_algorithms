@@ -11,3 +11,10 @@ function sumRecursive(array) {
 }
 
 console.log(sumRecursive([1, 2, 3, 4])); // 10
+
+// Perso
+// function sum(array) {
+//   return array.length === 1 ? array[0] : array[0] + sum(array.slice(1));
+// }
+
+// console.log(sum([2, 4, 6]));

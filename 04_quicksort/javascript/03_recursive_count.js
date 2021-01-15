@@ -11,3 +11,9 @@ function count(array) {
 }
 
 console.log(count([0, 1, 2, 3, 4, 5])); // 6
+
+// Perso
+
+//function count(array) {
+//   return array.length === 0 ? 0 : 1 + count(array.slice(1));
+// }
